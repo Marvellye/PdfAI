@@ -1,0 +1,6 @@
+# requirements.txt
+pymupdf
+reportlab
+pypdf
+pillow
+google-genai
