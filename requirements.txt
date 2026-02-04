@@ -4,3 +4,4 @@ reportlab
 pypdf
 pillow
 google-genai
+python-dotenv
