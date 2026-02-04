@@ -1,7 +1,8 @@
 # pdf_render.py
 import fitz
 
-def render_page(pdf_path, page_num=0, dpi=200):
+def render_page(pdf_path, page_num=0, dpi=300):
+    import fitz
     doc = fitz.open(pdf_path)
     page = doc[page_num]
     mat = fitz.Matrix(dpi / 72, dpi / 72)
